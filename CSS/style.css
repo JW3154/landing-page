@@ -20,7 +20,7 @@ header {
 }
 
 .logo {
-    margin-left: 410px;
+    margin-left: 320px;
     margin-bottom: 20px;
 }
 
@@ -54,7 +54,7 @@ nav a {
 }
 
 .download-btn1 {
-    margin-right: 410px;
+    margin-right: 320px;
 }
 
 .header-banner {
@@ -67,7 +67,7 @@ nav a {
 
 .bannertext {
     text-align: left;
-    margin-left: 410px;
+    margin-left: 320px;
 }
 
 .banner-text1 {
@@ -109,7 +109,7 @@ nav a {
 .maintext {
     display: flex;
     margin-top: 80px;
-    margin-left: 410px;
+    margin-left: 320px;
 }
 
 .main-text1 {
@@ -131,8 +131,7 @@ nav a {
 
 .subtext {
     margin-top: 120px;
-    margin-left: 95px;
-    width: 1920px;
+    margin-left: 20px;
 }
 
 .sub-text1 {
@@ -173,7 +172,7 @@ nav a {
 
 .more {
     display: flex;
-    margin-left: 600px;
+    margin-left: 510px;
     margin-top: 90px;
 }
 .more p {
@@ -187,7 +186,7 @@ nav a {
     height: 200px;
     background-color: #263140;
     border-radius: 30px;
-    margin-left: 410px;
+    margin-left: 320px;
     margin-top: 90px;
     color: #F2E9D8;
     text-align: left;
