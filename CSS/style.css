@@ -90,3 +90,86 @@ nav a {
     text-align: right;
     margin-top: 134px;
 }
+
+.sleep-cat {
+    width: 660px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-right: 110px;
+}
+
+.maintext {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 320px;
+}
+
+.main-text1 {
+    font-size: 36px;
+    font-weight: bold;
+    width: 510px;
+    height: 135px;
+    text-align: left;
+    margin-top: 92px;
+}
+
+.main-text2 {
+    font-size: 16px;
+    width: 510px;
+    height: 40px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.subtext {
+    margin-top: 120px;
+}
+
+.sub-text1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #D97652;
+}
+
+.sub-text2 {
+    margin-top: 40px;
+}
+
+.sub-text2 span {
+    color: #D97652;
+}
+
+.three-cat {
+    margin-top: 88px;
+}
+
+.three-cat img {
+    width: 378px;
+    height: 378px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-inline: 36px;
+}
+
+.more-btn {
+    background-color: #D97652;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 40px;
+    border-style: none;
+    width: 140px;
+    height: 50px;
+}
+
+.more {
+    display: flex;
+    margin-left: 600px;
+    margin-top: 90px;
+}
+.more p {
+    text-align: left;
+    font-size: 16px;
+    margin-right: 52px;
+}
