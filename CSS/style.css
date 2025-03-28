@@ -15,10 +15,14 @@ header {
 .header-menu {
     display: flex;
     justify-content: space-between;
-    margin-right: 320px;
-    margin-left: 320px;
-    width: 1280px;
+    width: 100%;
     position: fixed;
+    background-color: #F2E9D8;
+}
+
+.logo {
+    margin-left: 410px;
+    margin-bottom: 20px;
 }
 
 .header-menu img, .header-menu div {
@@ -32,7 +36,6 @@ header {
 nav {
     height: 20px;
     margin-top: 13px;
-    
 }
 
 nav a {
@@ -51,6 +54,10 @@ nav a {
     height: 50px;
 }
 
+.download-btn1 {
+    margin-right: 410px;
+}
+
 .header-banner {
     display: flex;
 }
@@ -61,7 +68,7 @@ nav a {
 
 .bannertext {
     text-align: left;
-    margin-left: 320px;
+    margin-left: 410px;
 }
 
 .banner-text1 {
@@ -103,7 +110,7 @@ nav a {
 .maintext {
     display: flex;
     margin-top: 80px;
-    margin-left: 320px;
+    margin-left: 410px;
 }
 
 .main-text1 {
@@ -125,6 +132,8 @@ nav a {
 
 .subtext {
     margin-top: 120px;
+    margin-left: 95px;
+    width: 1920px;
 }
 
 .sub-text1 {
@@ -172,4 +181,41 @@ nav a {
     text-align: left;
     font-size: 16px;
     margin-right: 52px;
+}
+
+.modal {
+    width: 1280px;
+    height: 200px;
+    background-color: #263140;
+    border-radius: 30px;
+    margin-left: 410px;
+    margin-top: 90px;
+    color: #F2E9D8;
+    text-align: left;
+    display: flex;
+}
+
+.modal-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.modal-text {
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 143px;
+}
+
+.input-box {
+    margin-top: 60px;
+    margin-right: 60px;
+    border-radius: 50px;
+    width: 530px;
+    height: 60px;
+    background-color: #FFFFFF;
+    display: flexbox;
+    padding-top: 25px;
+    padding-left: 20px;
+    
 }

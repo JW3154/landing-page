@@ -12,7 +12,7 @@
             <h1 hidden>HODU 렌딩페이지</h1>
             <section class="header-menu">
                 <h2 hidden>페이지 상단 메뉴</h2>
-                <img  src="./img/logo.svg" alt="로고 svg 이미지">
+                <img  class="logo" src="./img/logo.svg" alt="로고 svg 이미지">
                 <div class="nav">
                     <nav>
                         <a href="#">Home</a>
@@ -81,17 +81,18 @@
                 <button class="more-btn" type="button">Learn more</button>
             </section>
 
-            <section>
-                <p>Subscribe to our Blog post</p>
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text
-                </p>
-                <div>
+            <section class="modal">
+                <div class="modal-text">
+                    <p class="modal-title">Subscribe to our Blog post</p>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                        Lorem Ipsum has been the industry's standard dummy text
+                    </p>
+                </div>
+                <div class="input-box">
                     <img src="./img/mail.svg" alt="">
                     <input type="text" placeholder="Enter your e-mail address">
                     <button type="button" id="showDialogBtn">Subscribe</button>
-
                     <dialog id="myDialog">
                         <img src="./img/cat-subscribe.png" alt="">
                         <p>Thank you!</p>
@@ -102,7 +103,6 @@
                         const dialog = document.getElementById('myDialog');
                         const showDialogBtn = document.getElementById('showDialogBtn');
                         const closeBtn = document.getElementById('closeBtn');
-
                         showDialogBtn.addEventListener('click', () => {
                             dialog.showModal();
                         });
@@ -113,6 +113,7 @@
                     </script>
                 </div>
             </section>
+
         </main>
 
         <footer>
