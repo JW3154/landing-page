@@ -17,6 +17,7 @@ header {
     justify-content: space-between;
     width: 100%;
     position: fixed;
+    background-color: #F2E9D8;
 }
 
 .logo {
