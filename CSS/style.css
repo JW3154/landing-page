@@ -9,6 +9,7 @@ body {
 
 header {
     background-color: #F2E9D8;
+    height: 900px;
 }
 
 .header-menu {
@@ -16,15 +17,28 @@ header {
     justify-content: space-between;
     margin-right: 320px;
     margin-left: 320px;
+    width: 1280px;
+    position: fixed;
 }
 
 .header-menu img, .header-menu div {
     margin-top: 20px;
 }
 
-div a {
+.nav {
+    display: flex;
+}
+
+nav {
+    height: 20px;
+    margin-top: 13px;
+    
+}
+
+nav a {
     text-decoration-line: none;
     color: black;
+    margin-right: 20px;
 }
 
 .download-btn1, .download-btn2 {
@@ -39,7 +53,6 @@ div a {
 
 .header-banner {
     display: flex;
-    flex-wrap: nowrap;
 }
 
 .banner-text1, .banner-text2 {
@@ -55,10 +68,10 @@ div a {
     font-size: 48px;
     font-weight: bold;
     text-align: left;
-    margin-top: 200px;
+    margin-top: 302px;
     margin-right: 120px;
     width: 737px;
-    height: 120;
+    height: 120px;
 }
 
 .banner-text2 {
@@ -75,5 +88,5 @@ div a {
     width: 415px;
     height: 766px;
     text-align: right;
-    margin-top: 32px;
+    margin-top: 134px;
 }
